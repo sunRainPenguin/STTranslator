@@ -17,7 +17,7 @@ public class STICILVisitor extends STBaseVisitor {
 	public STICILVisitor() {
 		FileOutputStream fos;
 		try {
-			fos = new FileOutputStream(new File("F:\\毕业设计代码\\STTransformer\\STTranslator\\outputICIL\\TankControler.il"));
+			fos = new FileOutputStream(new File("outputICIL/TankControler.il"));
 			bos = new BufferedOutputStream(fos);
 			try {
 				bos.write("Program() = \n".getBytes());

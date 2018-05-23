@@ -12,7 +12,7 @@ import grammar.STParser.Prog_DeclContext;
 
 public class STTranslator {
 	public static void main(String args[]) {
-		File f = new File("F:\\毕业设计代码\\STTransformer\\STTranslator\\inputST\\TankControler.st");
+		File f = new File("inputST/TankControler.st");
 		try {
 			FileInputStream fs = new FileInputStream(f);
 			ANTLRInputStream input = new ANTLRInputStream(fs);
@@ -26,14 +26,11 @@ public class STTranslator {
 //			ParseTree tree = parser.sT_LT_prog();
 //			ParseTreeWalker walker = new ParseTreeWalker();
 //			walker.walk(new STBaseListener(), tree);
-//			System.out.println(); // print a \n after translation
-			
-			
+//			System.out.println(); // print a \n after translation		
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 		//STParser stParser = new STParser(input);
 	}
 }

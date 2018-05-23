@@ -16,7 +16,7 @@ subrange_Type_Access  : ( namespace_Name '.' )* subrange_Type_Name;
 enum_Type_Access  : ( namespace_Name '.' )* enum_Type_Name;
 array_Type_Access  : ( namespace_Name '.' )* array_Type_Name;
 struct_Type_Access  : ( namespace_Name '.' )* struct_Type_Name;
-namespace_Name:Identifier;
+namespace_Name : Identifier;
 simple_Type_Name  : Identifier;
 subrange_Type_Name : Identifier;
 enum_Type_Name  : Identifier;
